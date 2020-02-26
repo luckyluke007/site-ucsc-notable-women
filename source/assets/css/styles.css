@@ -71,7 +71,7 @@ a.back-to-top {
     color: #fff;
     display: none;
     width: 60px;
-    height: 60px;
+    height: 55px;
     position: fixed;
     z-index: 999;
     right: 20px;
@@ -83,7 +83,7 @@ a.back-to-top {
 
 a.back-to-top i {
     width: 60px;
-    height: 60px;
+    height: 55px;
     padding-top: .4em;
     text-align: center;
 }
