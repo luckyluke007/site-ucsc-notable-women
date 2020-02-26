@@ -1,0 +1,19 @@
+<footer class="full-container">
+  <div class="container">
+    <p><a href="https://alumni.ucsc.edu">UC Santa Cruz Alumni</a></p>
+    <p>© 2020 Regents of the University of California</p>
+  </div>
+</footer>
+
+<script>
+  $('select').change(function(){
+    $('#'+$(this).val()).removeClass('active');
+    var theDiv = $('#'+$(this).val()).offset().top;
+    var divValue = $('#'+$(this).val())
+    $('html, body').animate({
+        scrollTop: theDiv
+    });
+    divValue.css('background','#fff').show().fadeOut( 750 );
+    divValue.css('background','#fff').show().fadeIn( 750 );
+  });
+</script>
