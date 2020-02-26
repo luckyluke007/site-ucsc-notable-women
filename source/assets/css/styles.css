@@ -60,6 +60,33 @@ a:focus {
   text-decoration: none;
 }
 
+a.back-to-top {
+    background: rgba(0, 60, 108, 1);
+    color: #fff;
+    display: none;
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    z-index: 999;
+    right: 10px;
+    bottom: 20px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+a.back-to-top i {
+    width: 30px;
+    height: 30px;
+    font-size: 1.25em;
+    padding-top: .4em;
+    text-align: center;
+}
+
+a.back-to-top span {
+    margin-left: -9999px;
+}
+
 footer p {
   color: #fff;
   font-size: .75rem;
@@ -145,7 +172,7 @@ img {
 .share-content {
   background: #F7F7F7;
   border-radius: .5em;
-  font-size: .95em;
+  font-size: .9em;
   text-align: center;
   padding: 1em;
 }
