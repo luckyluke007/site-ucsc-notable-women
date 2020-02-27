@@ -7,6 +7,8 @@
 
 ### [Codepen Layout](https://codepen.io/luckyluke007/pen/ExjgNYE)
 
+All CSS and Javascript editing should be make on Codepen.
+
 - [W3bits Mansonry grid](https://w3bits.com/css-grid-masonry/)
 - [Font Awesome](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css)
 - [Google webfonts](https://fonts.googleapis.com/css?family=Lora|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;display=swap)
