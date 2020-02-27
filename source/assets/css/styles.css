@@ -170,6 +170,7 @@ img {
 .affiliation {
   color: #666;
   font-size: .8em;
+  line-height: 1.25rem;
   margin: .25rem 0 0;
   padding: 0 0 .5em;
 }
@@ -224,14 +225,7 @@ img {
   margin-top: 10px;
 }
 
-@media screen and (max-width:768px) {
-  .title {
-    font-size: 2.5rem;
-  }
-}
-
-@media only screen and (max-width: 1023px) and (min-width: 768px) {
-  .masonry {
+@media only screen and (max-width: 1023px) and (min-width: 768px) {  .masonry {
     columns: 2;
   }
 }
