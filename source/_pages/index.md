@@ -27,8 +27,8 @@ permalink: /
         <h2>{{ list.first }} {{ list.last }}</h2>
         <p class="affiliation">{{ list.title }}</p>
         <p>{{ list.bio }}</p>
-        <div class="share-content">
-          Share: <a href="https://twitter.com/intent/tweet?text={{ list.first }}{{ list.last }}: {{ list.bio | truncate: 100 }}&amp;url={{ site.url }}%23{{ list.last | downcase | replace: ' ', ''}}" class="social"><i class="fab fa-twitter"></i></a>  <a href="https://www.facebook.com/sharer/sharer.php?t={{ list.first }}{{ list.last }}: {{ list.bio | truncate: 100 }} &u={{ site.url }}%2F{{ list.last | downcase | replace: ' ', ''}}?ref=share" class="social"><i class="fab fa-facebook-f"></i></a>  <a href="http://www.linkedin.com/shareArticle?mini=true&amp;title={{ list.first }}{{ list.last }} &amp;url={{ site.url }}%2F{{ list.last | downcase | replace: ' ', ''}}" class="social"><i class="fab fa-linkedin"></i></a>
+        <div class="share-content" data-href="https://women.ucsc.edu/{{ list.last | downcase | replace: ' ', ''}}">
+          Share: <a href="https://twitter.com/intent/tweet?text={{ list.first }}{{ list.last }}: {{ list.bio | truncate: 100 }}&amp;url={{ site.url }}%23{{ list.last | downcase | replace: ' ', ''}}" class="social"><i class="fab fa-twitter"></i></a>  <a href="https://www.facebook.com/sharer/sharer.php?url=https://women.ucsc.edu/{{ list.last | downcase | replace: ' ', ''}}?ref=share" class="social"><i class="fab fa-facebook-f"></i></a>  <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://women.ucsc.edu/{{ list.last | downcase | replace: ' ', ''}}" class="social"><i class="fab fa-linkedin"></i></a>
         </div>
       </div>
     {% endfor %}
