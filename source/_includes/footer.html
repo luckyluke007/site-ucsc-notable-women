@@ -7,15 +7,15 @@
 
 <script>
   $('select').change(function(){
-    $('#'+$(this).val()).removeClass('active');
     var theDiv = $('#'+$(this).val()).offset().top;
-    var divValue = $('#'+$(this).val())
+    var divValue = $('#'+$(this).val());
     $('html, body').animate({
         scrollTop: theDiv
     });
-    divValue.css('background','#fff').show().fadeOut( 750 );
-    divValue.css('background','#fff').show().fadeIn( 750 );
+      divValue.css('background','#fff').show().fadeOut( 750 );
+      divValue.css('background','#fff').show().fadeIn( 750 );
   });
+  window.location.replace('#'+$(this).val());
   // create the back to top button
   jQuery('body').prepend('<a href="#" class="back-to-top"><i class="fa fa-angle-double-up fa-2x"></i><span>Back to Top</span></a>');
 
