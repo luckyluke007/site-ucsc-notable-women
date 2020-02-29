@@ -3,7 +3,7 @@ email: ttran34@ucsc.edu
 description: >- # this means to ignore newlines until "baseurl:"
   This International Women's Day, we are lifting up the achievements of 35 phenomenal UC Santa Cruz women. From astronomers and astronauts to activists, journalists, judges, and so much more, these women are trailblazers, and many have been "firsts" in their fields. For us, these women exemplify the words immortalized by the poet Maya Angelou: "I’m a woman / Phenomenally. / Phenomenal woman, / That’s me."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://women.ucsc.edu" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ucsantacruz
 github_username:  ucsc
 
