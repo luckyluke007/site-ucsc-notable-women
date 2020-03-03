@@ -30,7 +30,7 @@ permalink: /testing.html
         <p class="affiliation">{{ list.title }}</p>
         <p>{{ list.bio }}</p>
         <div class="share-content">
-          Share: <a href="https://twitter.com/intent/tweet?text={{ list.first }}{{ list.last }}: {{ list.bio | truncate: 100 }}&amp;url={{ site.url }}%23{{ list.last | downcase | replace: ' ', ''}}" class="social"><i class="fab fa-twitter"></i></a>  <a href="https://facebook.com/sharer.php?u={{ site.url }}/{{ list.last | downcase | replace: ' ','' }}" rel="nofollow" target="_blank" title="Share on Facebook"><i class="fab fa-facebook-f"></i></a>
+          Share: <a href="https://twitter.com/intent/tweet?text={{ list.first }}{{ list.last }}: {{ list.bio | truncate: 100 }}&amp;url={{ site.url }}%23{{ list.last | downcase | replace: ' ', ''}}" class="social"><i class="fab fa-twitter"></i></a>  <a href="https://facebook.com/sharer.php?u={{ site.url }}/{{ list.last | downcase | replace: ' ','' }}" rel="nofollow" target="_blank" title="Share on Facebook" class="social"><i class="fab fa-facebook-f"></i></a>
         </div>
       </div>
     {% endfor %}
