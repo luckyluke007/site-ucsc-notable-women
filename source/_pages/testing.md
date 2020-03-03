@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Shenomenal
-permalink: /
+permalink: /testing.html
 ---
 
 <!-- intro -->
