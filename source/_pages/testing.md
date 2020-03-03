@@ -30,7 +30,7 @@ permalink: /testing.html
         <p class="affiliation">{{ list.title }}</p>
         <p>{{ list.bio }}</p>
         <div class="share-content">
-          Share: <a href="https://twitter.com/intent/tweet?text={{ list.first }}{{ list.last }}: {{ list.bio | truncate: 100 }}&amp;url={{ site.url }}%23{{ list.last | downcase | replace: ' ', ''}}" class="social"><i class="fab fa-twitter"></i></a>  <a href="#" onclick="facebook_fb('https://women.ucsc.edu/{{ list.last | downcase | replace: ' ', ''}}'); return false;" rel="follow" share_url="https://women.ucsc.edu/{{ list.last | downcase | replace: ' ', ''}}" class="btnShare"><i class="fab fa-facebook-f"></i></a>  <a href="http://www.linkedin.com/shareArticle?mini=true&amp;title={{ list.first }}{{ list.last }} &amp;url=https://women.ucsc.edu%23{{ list.last | downcase | replace: ' ', ''}}%23" class="social"><i class="fab fa-linkedin"></i></a>
+          Share: <a href="https://twitter.com/intent/tweet?text={{ list.first }}{{ list.last }}: {{ list.bio | truncate: 100 }}&amp;url={{ site.url }}%23{{ list.last | downcase | replace: ' ', ''}}" class="social"><i class="fab fa-twitter"></i></a>  <a href="#" onclick="facebook_fb('https://women.ucsc.edu/{{ list.last | downcase | replace: ' ', ''}}'); return false;" rel="follow" share_url="https://women.ucsc.edu/{{ list.last | downcase | replace: ' ', ''}}" class="btnShare"><i class="fab fa-facebook-f"></i></a>  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https//women.ucsc.edu%23{{ list.last }}&title={{ list.first }} {{ list.last }}&summary={{ list.bio }}" class="social"><i class="fab fa-linkedin"></i></a>
         </div>
       </div>
     {% endfor %}
