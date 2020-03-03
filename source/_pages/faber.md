@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Sandra Faber
-permalink: /faber
+permalink: /faber/
 ---
 
 <!-- intro -->
