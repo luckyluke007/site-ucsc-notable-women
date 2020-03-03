@@ -30,7 +30,7 @@ permalink: /
         <p class="affiliation">{{ list.title }}</p>
         <p>{{ list.bio }}</p>
         <div class="share-content">
-          Share: <a href="https://twitter.com/intent/tweet?text={{ list.first }}{{ list.last }}: {{ list.bio | truncate: 100 }}&amp;url={{ site.url }}%23{{ list.last | downcase | replace: ' ', ''}}" class="social"><i class="fab fa-twitter"></i></a>  <a href="https://www.facebook.com/sharer/sharer.php?t={{ list.first }}{{ list.last }}: {{ list.bio | truncate: 100 }} &u=https://women.ucsc.edu%23{{ list.last | downcase | replace: ' ', ''}}%23?ref=share" class="social"><i class="fab fa-facebook-f"></i></a>  <a href="http://www.linkedin.com/shareArticle?mini=true&amp;title={{ list.first }}{{ list.last }} &amp;url=https://women.ucsc.edu%23{{ list.last | downcase | replace: ' ', ''}}%23" class="social"><i class="fab fa-linkedin"></i></a>
+          Share: <a href="https://twitter.com/intent/tweet?text={{ list.first }}{{ list.last }}: {{ list.bio | truncate: 100 }}&amp;url={{ site.url }}%23{{ list.last | downcase | replace: ' ', ''}}" class="social"><i class="fab fa-twitter"></i></a>  <a href="https://women.ucsc.edu%23{{ list.last | downcase | replace: ' ', ''}}" class="social" data-title="Shenomenal: {{ list.first }} {{ list.last }}" data-image="{{ list.photo }}" data-desc="{{ list.bio }}" class="btnShare"><i class="fab fa-facebook-f"></i></a>  <a href="http://www.linkedin.com/shareArticle?mini=true&amp;title={{ list.first }}{{ list.last }} &amp;url=https://women.ucsc.edu%23{{ list.last | downcase | replace: ' ', ''}}%23" class="social"><i class="fab fa-linkedin"></i></a>
         </div>
       </div>
     {% endfor %}
@@ -38,6 +38,7 @@ permalink: /
   <!-- end mansonry container -->
 </div>
 <!-- end mansonry-wrapper -->
+
 
 
 
