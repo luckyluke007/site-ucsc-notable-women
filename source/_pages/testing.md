@@ -4,7 +4,6 @@ title: Shenomenal
 permalink: /testing.html
 published: true
 ---
-<script async src="https://static.addtoany.com/menu/page.js"></script>
 <!-- intro -->
 <div class="masonry-wrapper">
   <div class="container align-center">
@@ -32,9 +31,6 @@ published: true
         <p>{{ list.bio }}</p>
         <div class="share-content">
           Share: <a href="https://twitter.com/intent/tweet?text={{ list.first }}{{ list.last }}: {{ list.bio | truncate: 100 }}&amp;url={{ site.url }}/{{ list.last | downcase | replace: ' ', '' | replace: 'é','e' }}?t={{ list.first }} {{ list.last }}" class="social"><i class="fab fa-twitter"></i></a>  <a href="https://facebook.com/sharer.php?u={{ site.url }}/{{ list.last | downcase | replace: ' ', '' | replace: 'é','e' }}" rel="nofollow" target="_blank" title="Share on Facebook" class="social"><i class="fab fa-facebook-f"></i></a>
-          <div class="a2a_kit">
-            <a class="a2a_button_linkedin_share" data-url="{{ site.url }}/{{ list.last | downcase | replace: ' ', '' | replace: 'é','e' }}"></a>
-          </div>
         </div>
       </div>
     {% endfor %}
