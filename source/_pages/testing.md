@@ -30,7 +30,7 @@ permalink: /testing.html
         <p class="affiliation">{{ list.title }}</p>
         <p>{{ list.bio }}</p>
         <div class="share-content">
-          Share: <a href="https://twitter.com/intent/tweet?text={{ list.first }}{{ list.last }}: {{ list.bio | truncate: 100 }}&amp;url={{ site.url }}%23{{ list.last | downcase | replace: ' ', ''}}" class="social"><i class="fab fa-twitter"></i></a>  <a href="https://facebook.com/sharer.php?u={{ site.url }}/{{ list.last | downcase | replace: ' ','' }}" rel="nofollow" target="_blank" title="Share on Facebook" class="social"><i class="fab fa-facebook-f"></i></a> <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://women.ucsc.edu/{{ list.last | downcase | replace: ' ','' }}" class="social"><i class="fab fa-linkedin"></i></a>
+          Share: <a href="https://twitter.com/intent/tweet?text={{ list.first }}{{ list.last }}: {{ list.bio | truncate: 100 }}&amp;url={{ site.url }}%23{{ list.last | downcase | replace: ' ', ''}}" class="social"><i class="fab fa-twitter"></i></a> <a href="http://www.linkedin.com/shareArticle?mini=true&url=https://women.ucsc.edu/{{ list.last | downcase | replace: ' ','' }}&title={{ list.first }} {{ list.last }}&summary=This International Women's Day, we are lifting up the achievements of 35 phenomenal UC Santa Cruz women.&source=Shenomenal" target="_new"> <img src="URL TO THE IMAGE" alt="linkedin share button" width="20" height="20" title="Share on Linked In" /> </a>
         </div>
       </div>
     {% endfor %}
