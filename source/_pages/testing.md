@@ -31,7 +31,7 @@ published: true
         <p class="affiliation">{{ list.title }}</p>
         <p>{{ list.bio }}</p>
         <div class="share-content">
-          Share: <a href="https://twitter.com/intent/tweet?text={{ list.first }}{{ list.last }}: {{ list.bio | truncate: 100 }}&amp;url={{ site.url }}/{{ list.last | downcase | replace: ' ', '' | replace: 'é','e' }}?t={{ list.first }} {{ list.last }}" class="social"><i class="fab fa-twitter"></i></a>  <a href="https://facebook.com/sharer.php?u={{ site.url }}/{{ list.last | downcase | replace: ' ', '' | replace: 'é','e' }}" rel="nofollow" target="_blank" title="Share on Facebook" class="social"><i class="fab fa-facebook-f"></i></a>  <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}/{{ list.last | downcase | replace: ' ', '' | replace: 'é','e' }}" class="social"><i class="fab fa-linkedin"></i></a>
+          Share: <a href="https://twitter.com/intent/tweet?text={{ list.first }}{{ list.last }}: {{ list.bio | truncate: 100 }}&amp;url={{ site.url }}/{{ list.last | downcase | replace: ' ', '' | replace: 'é','e' }}?t={{ list.first }} {{ list.last }}" class="social"><i class="fab fa-twitter"></i></a>  <a href="https://facebook.com/sharer.php?u={{ site.url }}/{{ list.last | downcase | replace: ' ', '' | replace: 'é','e' }}" rel="nofollow" target="_blank" title="Share on Facebook" class="social"><i class="fab fa-facebook-f"></i></a>  <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}/{{ list.last | downcase | replace: ' ', '' | replace: 'é','e' }}&title={{ list.first }} {{ list.last }}&summary={{ list.bio | truncate: '100' }}&source=women.ucsc.edu" class="social"><i class="fab fa-linkedin"></i></a>
         </div>
       </div>
     {% endfor %}
