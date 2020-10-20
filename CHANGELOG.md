@@ -1,133 +1,214 @@
-- Udpated: Kuttner title and bio
-- Updated: Krisperry photo and Schatz yr
-- Unpublished: Test page
-- Removed: addtoany js
-- Added: addtoany js
-- Test LinkedIn share
-- Testing LinkedIn with Javascript
-- Last LinkedIn test
-- Final test LinkedIn
-- Another LinkedIn test.
-- Another LinkedIn test
-- Testing LinkedIn two
-- LinkedIn test
-- testing facebook title.
-- Fixed: Irma
-- Testing: é
-- Removed: # from twitter
-- Edited: replace: ' ', '' | replace: 'é','e'
-- Edited: Jackson
-- Edited: Wojciki
-- Edited: Gerhardt
-- Edited: Faber
-- Edited: Grande
-- Edited: Omidyar
-- Edited: Silver
-- Edited: Batalha
-- Edited: Anderson
-- Edited: Rudolph
-- Edited: Mendoza
-- Edited: Geha
-- Edited: McNutt
-- Edited: Nguyen
-- Edited: Perry
-- Edited: Sullivan
-- Edited: Schatz
-- Edited: Packard
-- Edited: Jean
-- Edited: Irma
-- Edited: Moglen
-- Edited: Voeltz
-- Edited: Madison
-- Edited: Priest
-- Edited: Scott
-- Edited: Perez
-- Edited: Aptheker
-- Edited: Nicole Black
-- Edited: Angela Davis
-- Edited: Shapiro double qoutes
-- Edited: bell hooks
-- Edited: Ruby Rich
-- Edited: Maechler break
-- Kuttner title br
-- Unpublished test page
-- linkedIn
-- Testing linkedin share linked
-- Fixed testing linked
-- testing linkedIn
-- Redirect: Fixed
-- redirect to 301
-- Fixed: netlify redirect
-- Updating faber redirect
-- path faber
-- faber
-- Redirect test faber
-- Test: faber redirect
-- Removed: linkedIn
-- Fixed: Facebook social linked
-- Added: redirect
-- Facebook icon
-- updating: redirect
-- testing facebook real URL
-- testing: facebook
-- testing: facebook
-- testing different url
-- testing linkedIn
-- Testing LinkedIn
-- testing share absolute url
-- testing removed: summary and source
-- testing linked
-- testing
-- testing
-- Edited: forward slash
-- Removed: bio in shared
-- removed: test facebook
-- testing linkedIn
-- Updating: lists.csv
-- share test
-- Edited: forward slash
-- permalink change
-- Testing sharing
-- Updating: tracking code
-- Added: back config url
-- Removed: site url from config
-- Updated: site.url to url
-- Added: forward slash
-- Removed: test
-- testing social media
-- Fixed: url config
-- Reverted: back to site.url
-- Fixed:  scrolling
-- Update index.md
-- Revert "Updated: URL when option selected"
-- Revert "Fixed: redirect"
-- Updating: config
-- Testing: Social media
-- Fixed: redirect
-- Added: share encode %2F
-- Testing: Hash redirect
-- Updated: URL when option selected
-- Modified: Linkedin and Facebook Share
-- Testing: Linkedin share # from %23
-- Modified: Changing title
-- Added: Teri Jackson photo
-- Modified: affiliation line height and edit README
-- Updating: config page title
-- Updating: config.
-- Added: Google analytics code
-- Fixed: title in mobile
-- Modified: top button height
-- Updated: header with link
-- Updated: csv
-- Added: Back to top scrolling
-- Added: description and intro text
-- Added: more images
-- Added: images
-- Updated: photos path
-- Added: url to config.
-- Updated: ReadMe
-- Removed: template files
-- Updated: congif
-- Fixed: path to style
-- Updating gemfile.lock
-- Initial commit
+- 2020-10-19 Merge branch 'master' into dev
+- 2020-10-19 Added: Change Log
+- 2020-03-10 Merge pull request #81 from ucsc/dev
+- 2020-03-10 Udpated: Kuttner title and bio
+- 2020-03-06 Merge pull request #80 from ucsc/dev
+- 2020-03-06 Updated: Krisperry photo and Schatz yr
+- 2020-03-05 Merge pull request #79 from ucsc/dev
+- 2020-03-05 Unpublished: Test page
+- 2020-03-04 Merge pull request #78 from ucsc/dev
+- 2020-03-04 Removed: addtoany js
+- 2020-03-04 Added: addtoany js
+- 2020-03-04 Merge pull request #77 from ucsc/dev
+- 2020-03-04 Test LinkedIn share
+- 2020-03-04 Merge pull request #76 from ucsc/dev
+- 2020-03-04 Testing LinkedIn with Javascript
+- 2020-03-04 Merge pull request #75 from ucsc/dev
+- 2020-03-04 Last LinkedIn test
+- 2020-03-04 Merge pull request #74 from ucsc/dev
+- 2020-03-04 Final test LinkedIn
+- 2020-03-04 Merge pull request #73 from ucsc/dev
+- 2020-03-04 Another LinkedIn test.
+- 2020-03-04 Merge pull request #72 from ucsc/dev
+- 2020-03-04 Another LinkedIn test
+- 2020-03-04 Merge pull request #71 from ucsc/dev
+- 2020-03-04 Testing LinkedIn two
+- 2020-03-04 Merge pull request #70 from ucsc/dev
+- 2020-03-04 LinkedIn test
+- 2020-03-04 Merge pull request #69 from ucsc/dev
+- 2020-03-04 testing facebook title.
+- 2020-03-04 Merge pull request #68 from ucsc/dev
+- 2020-03-04 Fixed: Irma
+- 2020-03-04 Merge pull request #67 from ucsc/dev
+- 2020-03-04 Testing: é
+- 2020-03-04 Merge pull request #66 from ucsc/dev
+- 2020-03-04 Removed: # from twitter
+- 2020-03-04 Edited: replace: ' ', '' | replace: 'é','e'
+- 2020-03-04 Merge pull request #65 from ucsc/dev
+- 2020-03-04 Edited: Jackson
+- 2020-03-04 Edited: Wojciki
+- 2020-03-04 Edited: Gerhardt
+- 2020-03-04 Edited: Faber
+- 2020-03-04 Edited: Grande
+- 2020-03-04 Edited: Omidyar
+- 2020-03-04 Edited: Silver
+- 2020-03-04 Edited: Batalha
+- 2020-03-04 Edited: Anderson
+- 2020-03-04 Edited: Rudolph
+- 2020-03-04 Edited: Mendoza
+- 2020-03-04 Edited: Geha
+- 2020-03-04 Edited: McNutt
+- 2020-03-04 Edited: Nguyen
+- 2020-03-04 Edited: Perry
+- 2020-03-04 Edited: Sullivan
+- 2020-03-04 Edited: Schatz
+- 2020-03-04 Edited: Packard
+- 2020-03-04 Edited: Jean
+- 2020-03-04 Edited: Irma
+- 2020-03-04 Edited: Moglen
+- 2020-03-04 Edited: Voeltz
+- 2020-03-04 Edited: Madison
+- 2020-03-04 Edited: Priest
+- 2020-03-04 Edited: Scott
+- 2020-03-04 Edited: Perez
+- 2020-03-04 Edited: Aptheker
+- 2020-03-04 Edited: Nicole Black
+- 2020-03-04 Edited: Angela Davis
+- 2020-03-04 Edited: Shapiro double qoutes
+- 2020-03-04 Edited: bell hooks
+- 2020-03-04 Edited: Ruby Rich
+- 2020-03-04 Edited: Maechler break
+- 2020-03-04 Merge pull request #64 from ucsc/dev
+- 2020-03-04 Kuttner title br
+- 2020-03-03 Unpublished test page
+- 2020-03-03 Merge pull request #63 from ucsc/dev
+- 2020-03-03 linkedIn
+- 2020-03-03 Merge pull request #62 from ucsc/dev
+- 2020-03-03 Testing linkedin share linked
+- 2020-03-03 Merge pull request #61 from ucsc/dev
+- 2020-03-03 Fixed testing linked
+- 2020-03-03 Merge pull request #60 from ucsc/dev
+- 2020-03-03 testing linkedIn
+- 2020-03-03 Merge pull request #59 from ucsc/dev
+- 2020-03-03 Redirect: Fixed
+- 2020-03-03 Merge pull request #58 from ucsc/dev
+- 2020-03-03 redirect to 301
+- 2020-03-03 Merge pull request #57 from ucsc/dev
+- 2020-03-03 Fixed: netlify redirect
+- 2020-03-03 Merge pull request #56 from ucsc/dev
+- 2020-03-03 Updating faber redirect
+- 2020-03-03 Merge pull request #55 from ucsc/dev
+- 2020-03-03 path faber
+- 2020-03-03 Merge pull request #54 from ucsc/dev
+- 2020-03-03 faber
+- 2020-03-03 Merge pull request #53 from ucsc/dev
+- 2020-03-03 Redirect test faber
+- 2020-03-03 Merge pull request #52 from ucsc/dev
+- 2020-03-03 Test: faber redirect
+- 2020-03-03 Removed: linkedIn
+- 2020-03-03 Merge pull request #51 from ucsc/dev
+- 2020-03-03 Fixed: Facebook social linked
+- 2020-03-03 Merge pull request #50 from ucsc/dev
+- 2020-03-03 Added: redirect
+- 2020-03-03 Merge pull request #49 from ucsc/dev
+- 2020-03-03 Facebook icon
+- 2020-03-03 Merge pull request #48 from ucsc/dev
+- 2020-03-03 updating: redirect
+- 2020-03-03 Merge pull request #47 from ucsc/dev
+- 2020-03-03 testing facebook real URL
+- 2020-03-03 Merge pull request #46 from ucsc/dev
+- 2020-03-03 testing: facebook
+- 2020-03-03 Merge pull request #45 from ucsc/dev
+- 2020-03-03 testing: facebook
+- 2020-03-03 Merge pull request #44 from ucsc/dev
+- 2020-03-03 testing different url
+- 2020-03-03 Merge pull request #43 from ucsc/dev
+- 2020-03-03 testing linkedIn
+- 2020-03-03 Merge pull request #42 from ucsc/dev
+- 2020-03-03 Testing LinkedIn
+- 2020-03-03 Merge pull request #41 from ucsc/dev
+- 2020-03-03 testing share absolute url
+- 2020-03-03 Merge pull request #40 from ucsc/dev
+- 2020-03-03 testing removed: summary and source
+- 2020-03-03 Merge pull request #39 from ucsc/dev
+- 2020-03-03 testing linked
+- 2020-03-03 Merge pull request #38 from ucsc/dev
+- 2020-03-03 testing
+- 2020-03-03 Merge pull request #37 from ucsc/dev
+- 2020-03-03 testing
+- 2020-03-03 Edited: forward slash
+- 2020-03-03 Merge pull request #36 from ucsc/dev
+- 2020-03-03 Removed: bio in shared
+- 2020-03-03 removed: test facebook
+- 2020-03-03 Merge pull request #35 from ucsc/dev
+- 2020-03-03 testing linkedIn
+- 2020-03-03 Merge pull request #34 from ucsc/dev
+- 2020-03-03 Updating: lists.csv
+- 2020-03-03 Merge pull request #33 from ucsc/dev
+- 2020-03-03 share test
+- 2020-03-03 Merge pull request #32 from ucsc/dev
+- 2020-03-03 Edited: forward slash
+- 2020-03-03 Merge pull request #31 from ucsc/dev
+- 2020-03-03 permalink change
+- 2020-03-03 Merge pull request #30 from ucsc/dev
+- 2020-03-03 Testing sharing
+- 2020-03-03 Merge pull request #29 from ucsc/dev
+- 2020-03-03 Updating: tracking code
+- 2020-02-28 Merge pull request #28 from ucsc/dev
+- 2020-02-28 Added: back config url
+- 2020-02-28 Merge pull request #27 from ucsc/dev
+- 2020-02-28 Removed: site url from config
+- 2020-02-28 Merge pull request #26 from ucsc/dev
+- 2020-02-28 Updated: site.url to url
+- 2020-02-28 Merge pull request #25 from ucsc/dev
+- 2020-02-28 Added: forward slash
+- 2020-02-28 Merge pull request #24 from ucsc/dev
+- 2020-02-28 Removed: test
+- 2020-02-28 Merge pull request #23 from ucsc/dev
+- 2020-02-28 testing social media
+- 2020-02-28 Merge pull request #22 from ucsc/dev
+- 2020-02-28 Fixed: url config
+- 2020-02-28 Merge pull request #21 from ucsc/dev
+- 2020-02-28 Reverted: back to site.url
+- 2020-02-28 Fixed:  scrolling
+- 2020-02-28 Update index.md
+- 2020-02-28 Revert "Updated: URL when option selected"
+- 2020-02-28 Revert "Fixed: redirect"
+- 2020-02-28 Merge pull request #20 from ucsc/dev
+- 2020-02-28 Updating: config
+- 2020-02-28 Merge pull request #19 from ucsc/dev
+- 2020-02-28 Testing: Social media
+- 2020-02-28 Merge pull request #18 from ucsc/dev
+- 2020-02-28 Fixed: redirect
+- 2020-02-28 Merge pull request #17 from ucsc/dev
+- 2020-02-28 Added: share encode %2F
+- 2020-02-28 Merge pull request #16 from ucsc/dev
+- 2020-02-28 Testing: Hash redirect
+- 2020-02-28 Merge pull request #15 from ucsc/dev
+- 2020-02-28 Updated: URL when option selected
+- 2020-02-28 Merge pull request #14 from ucsc/dev
+- 2020-02-28 Modified: Linkedin and Facebook Share
+- 2020-02-28 Merge pull request #13 from ucsc/dev
+- 2020-02-28 Testing: Linkedin share # from %23
+- 2020-02-28 Merge pull request #12 from ucsc/dev
+- 2020-02-28 Modified: Changing title
+- 2020-02-27 Merge pull request #11 from ucsc/dev
+- 2020-02-27 Added: Teri Jackson photo
+- 2020-02-27 Merge pull request #10 from ucsc/dev
+- 2020-02-27 Modified: affiliation line height and edit README
+- 2020-02-27 Merge pull request #9 from ucsc/dev
+- 2020-02-27 Updating: config page title
+- 2020-02-27 Merge pull request #8 from ucsc/dev
+- 2020-02-27 Updating: config.
+- 2020-02-27 Merge pull request #7 from ucsc/dev
+- 2020-02-27 Added: Google analytics code
+- 2020-02-26 Merge pull request #6 from ucsc/dev
+- 2020-02-26 Fixed: title in mobile
+- 2020-02-26 Merge pull request #5 from ucsc/dev
+- 2020-02-26 Modified: top button height
+- 2020-02-26 Merge pull request #4 from ucsc/dev
+- 2020-02-26 Updated: header with link
+- 2020-02-26 Updated: csv
+- 2020-02-26 Merge pull request #3 from ucsc/dev
+- 2020-02-26 Added: Back to top scrolling
+- 2020-02-26 Added: description and intro text
+- 2020-02-26 Added: more images
+- 2020-02-26 Added: images
+- 2020-02-26 Updated: photos path
+- 2020-02-26 Added: url to config.
+- 2020-02-26 Updated: ReadMe
+- 2020-02-26 Removed: template files
+- 2020-02-26 Updated: congif
+- 2020-02-26 Fixed: path to style
+- 2020-02-26 Updating gemfile.lock
+- 2020-02-25 Initial commit
