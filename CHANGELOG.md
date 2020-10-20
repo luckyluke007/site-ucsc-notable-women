@@ -1,0 +1,133 @@
+- Udpated: Kuttner title and bio
+- Updated: Krisperry photo and Schatz yr
+- Unpublished: Test page
+- Removed: addtoany js
+- Added: addtoany js
+- Test LinkedIn share
+- Testing LinkedIn with Javascript
+- Last LinkedIn test
+- Final test LinkedIn
+- Another LinkedIn test.
+- Another LinkedIn test
+- Testing LinkedIn two
+- LinkedIn test
+- testing facebook title.
+- Fixed: Irma
+- Testing: é
+- Removed: # from twitter
+- Edited: replace: ' ', '' | replace: 'é','e'
+- Edited: Jackson
+- Edited: Wojciki
+- Edited: Gerhardt
+- Edited: Faber
+- Edited: Grande
+- Edited: Omidyar
+- Edited: Silver
+- Edited: Batalha
+- Edited: Anderson
+- Edited: Rudolph
+- Edited: Mendoza
+- Edited: Geha
+- Edited: McNutt
+- Edited: Nguyen
+- Edited: Perry
+- Edited: Sullivan
+- Edited: Schatz
+- Edited: Packard
+- Edited: Jean
+- Edited: Irma
+- Edited: Moglen
+- Edited: Voeltz
+- Edited: Madison
+- Edited: Priest
+- Edited: Scott
+- Edited: Perez
+- Edited: Aptheker
+- Edited: Nicole Black
+- Edited: Angela Davis
+- Edited: Shapiro double qoutes
+- Edited: bell hooks
+- Edited: Ruby Rich
+- Edited: Maechler break
+- Kuttner title br
+- Unpublished test page
+- linkedIn
+- Testing linkedin share linked
+- Fixed testing linked
+- testing linkedIn
+- Redirect: Fixed
+- redirect to 301
+- Fixed: netlify redirect
+- Updating faber redirect
+- path faber
+- faber
+- Redirect test faber
+- Test: faber redirect
+- Removed: linkedIn
+- Fixed: Facebook social linked
+- Added: redirect
+- Facebook icon
+- updating: redirect
+- testing facebook real URL
+- testing: facebook
+- testing: facebook
+- testing different url
+- testing linkedIn
+- Testing LinkedIn
+- testing share absolute url
+- testing removed: summary and source
+- testing linked
+- testing
+- testing
+- Edited: forward slash
+- Removed: bio in shared
+- removed: test facebook
+- testing linkedIn
+- Updating: lists.csv
+- share test
+- Edited: forward slash
+- permalink change
+- Testing sharing
+- Updating: tracking code
+- Added: back config url
+- Removed: site url from config
+- Updated: site.url to url
+- Added: forward slash
+- Removed: test
+- testing social media
+- Fixed: url config
+- Reverted: back to site.url
+- Fixed:  scrolling
+- Update index.md
+- Revert "Updated: URL when option selected"
+- Revert "Fixed: redirect"
+- Updating: config
+- Testing: Social media
+- Fixed: redirect
+- Added: share encode %2F
+- Testing: Hash redirect
+- Updated: URL when option selected
+- Modified: Linkedin and Facebook Share
+- Testing: Linkedin share # from %23
+- Modified: Changing title
+- Added: Teri Jackson photo
+- Modified: affiliation line height and edit README
+- Updating: config page title
+- Updating: config.
+- Added: Google analytics code
+- Fixed: title in mobile
+- Modified: top button height
+- Updated: header with link
+- Updated: csv
+- Added: Back to top scrolling
+- Added: description and intro text
+- Added: more images
+- Added: images
+- Updated: photos path
+- Added: url to config.
+- Updated: ReadMe
+- Removed: template files
+- Updated: congif
+- Fixed: path to style
+- Updating gemfile.lock
+- Initial commit
